@@ -1,0 +1,11 @@
+|    | BMP Tipi            | Okuma Yöntemi   |   Orijinal Boyut (byte) |   Sıkıştırılmış Boyut (byte) | Sıkıştırma Oranı   | Yer Kazancı (%)   | Kayıpsız mı?   |
+|---:|:--------------------|:----------------|------------------------:|-----------------------------:|:-------------------|:------------------|:---------------|
+|  0 | Black & White       | Row             |                  32,830 |                        4,167 | 7.88x              | 87.31%            | Evet           |
+|  1 | Black & White       | Column          |                  32,830 |                        4,167 | 7.88x              | 87.31%            | Evet           |
+|  2 | Black & White       | Zigzag          |                  32,830 |                        4,167 | 7.88x              | 87.31%            | Evet           |
+|  3 | 4-bit Grayscale     | Row             |                 262,202 |                        4,163 | 62.98x             | 98.41%            | Evet           |
+|  4 | 4-bit Grayscale     | Column          |                 262,202 |                        4,163 | 62.98x             | 98.41%            | Evet           |
+|  5 | 4-bit Grayscale     | Zigzag          |                 262,202 |                        4,163 | 62.98x             | 98.41%            | Evet           |
+|  6 | Color Table (8-bit) | Row             |                 263,222 |                        8,273 | 31.82x             | 96.86%            | Evet           |
+|  7 | Color Table (8-bit) | Column          |                 263,222 |                        8,273 | 31.82x             | 96.86%            | Evet           |
+|  8 | Color Table (8-bit) | Zigzag          |                 263,222 |                       11,927 | 22.07x             | 95.47%            | Evet           |
